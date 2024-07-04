@@ -1,0 +1,61 @@
+.adduser{
+    padding: 30px;
+    width: max-content;
+    height: max-content;
+    top: 0;
+    bottom: 0;;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color:  rgba(16, 2, 49, 0.596);
+    border-radius: 10px;
+    position: absolute;
+
+    form{
+        display: flex;
+        gap: 20px;
+
+        input{
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+        }
+
+        button{
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+
+    .user{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .detail{
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            gap: 20px;
+
+            img{
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+        button{
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}
